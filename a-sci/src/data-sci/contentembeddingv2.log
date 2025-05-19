@@ -1,0 +1,28 @@
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+('spark.jars', 'file:///home/taoufik/.ivy2/jars/io.delta_delta-spark_2.13-3.2.0.jar,file:///home/taoufik/.ivy2/jars/io.delta_delta-storage-3.2.0.jar,file:///home/taoufik/.ivy2/jars/org.antlr_antlr4-runtime-4.9.3.jar')
+('spark.app.name', 'Workspace Initialization')
+('spark.app.initial.jar.urls', 'spark://192.168.1.140:37937/jars/org.antlr_antlr4-runtime-4.9.3.jar,spark://192.168.1.140:37937/jars/io.delta_delta-spark_2.13-3.2.0.jar,spark://192.168.1.140:37937/jars/io.delta_delta-storage-3.2.0.jar')
+('spark.driver.host', '192.168.1.140')
+('spark.app.submitTime', '1724966531485')
+('spark.master', 'local[*]')
+('spark.app.initial.file.urls', 'file:///home/taoufik/.ivy2/jars/io.delta_delta-spark_2.13-3.2.0.jar,file:///home/taoufik/.ivy2/jars/org.antlr_antlr4-runtime-4.9.3.jar,file:///home/taoufik/.ivy2/jars/io.delta_delta-storage-3.2.0.jar')
+('spark.app.id', 'local-1724966531846')
+('spark.executor.id', 'driver')
+('spark.files', 'file:///home/taoufik/.ivy2/jars/io.delta_delta-spark_2.13-3.2.0.jar,file:///home/taoufik/.ivy2/jars/io.delta_delta-storage-3.2.0.jar,file:///home/taoufik/.ivy2/jars/org.antlr_antlr4-runtime-4.9.3.jar')
+('spark.sql.execution.arrow.enabled', 'false')
+('spark.sql.extensions', 'io.delta.sql.DeltaSparkSessionExtension')
+('spark.submit.deployMode', 'client')
+('spark.executor.extraJavaOptions', '-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false -Dio.netty.tryReflectionSetAccessible=true')
+('spark.serializer.objectStreamReset', '100')
+('spark.submit.pyFiles', '/home/taoufik/.ivy2/jars/io.delta_delta-spark_2.13-3.2.0.jar,/home/taoufik/.ivy2/jars/io.delta_delta-storage-3.2.0.jar,/home/taoufik/.ivy2/jars/org.antlr_antlr4-runtime-4.9.3.jar')
+('spark.ui.showConsoleProgress', 'true')
+('spark.rdd.compress', 'True')
+('spark.driver.port', '37937')
+('spark.driver.extraJavaOptions', '-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false -Dio.netty.tryReflectionSetAccessible=true')
+('spark.sql.catalog.spark_catalog', 'org.apache.spark.sql.delta.catalog.DeltaCatalog')
+('spark.repl.local.jars', 'file:///home/taoufik/.ivy2/jars/io.delta_delta-spark_2.13-3.2.0.jar,file:///home/taoufik/.ivy2/jars/io.delta_delta-storage-3.2.0.jar,file:///home/taoufik/.ivy2/jars/org.antlr_antlr4-runtime-4.9.3.jar')
+('spark.jars.packages', 'io.delta:delta-spark_2.13:3.2.0')
+('spark.app.startTime', '1724966531582')
+{'content_cluster_components': {'value': 2}, 'content_clusters': {'value': 20}, 'content_dim_components': {'value': 2}, 'dimensions': {'value': [{'label': 'Username'}, {'label': 'Date'}, {'label': 'Lang'}]}, 'file_format': {'value': {'encoding': 'UTF-8', 'delimiter': ';', 'quote': '"', 'quoteEscape': '"', 'escape': '"'}}, 'file_mapping': {'value': [{'type': 'text', 'input': 'text'}, {'type': 'text', 'input': 'original id'}, {'type': 'text', 'input': 'user'}, {'type': 'date', 'input': 'date', 'format': 'dd/MM/yyyy hh:mm'}, {'type': 'text', 'input': 'lang'}]}, 'tags': {}, 'term_black_list': {}, 'topic_label_prompt': {'value': 'Summarize the content of the following list of sentences in French'}, 'topic_medium_label_prompt': {'value': 'Summarize in a few words the subject of the following text in French'}, 'topic_small_label_prompt': {'value': 'Summarize in maximum 5 words the following text in French'}}
+DataFrame[project_id: string, content_group: string, id: string, original_id: string, line: int, content: string, dim_1: string, dim_2: string, dim_3: string, dim_4: string, dim_5: string, dim_6: string, dim_7: string, dim_8: string, dim_9: string, dim_10: string, dim_11: string, dim_12: string, dim_13: string, dim_14: string, dim_15: string, dim_16: string, dim_17: string, dim_18: string, dim_19: string, dim_20: string, dim_21: string, dim_22: string, dim_23: string, dim_24: string, dim_25: string]
+30523
